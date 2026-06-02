@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Виртуальное окружение ---
+venv/
+.venv/
+env/
+
+# --- Секреты и переменные окружения ---
+.env
+.env.*
+!.env.example          # шаблон оставляем в репе
+*.pem
+
+# --- Django ---
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media/                # загруженные пользователем файлы
+/staticfiles/          # результат collectstatic
+local_settings.py
+
+# --- IDE / редакторы ---
+.idea/
+.vscode/
+*.swp
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
